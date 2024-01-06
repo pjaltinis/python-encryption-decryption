@@ -13,3 +13,4 @@ with open("encrypted.txt", "rb") as file:
 # Decrypt the text
 decrypted_text = cipher_suite.decrypt(encrypted_text)
 print(decrypted_text.decode())
+ 
