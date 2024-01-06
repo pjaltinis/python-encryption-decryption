@@ -17,3 +17,4 @@ with open("encrypted.txt", "wb") as file:
 # Save the encryption key to a file (for later decryption)
 with open("key.key", "wb") as key_file:
     key_file.write(key)
+ 
