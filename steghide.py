@@ -1,3 +1,5 @@
+# this script uses steghide to automate the extracting and printing of a python script that was encrypted in an image 
+
 import subprocess
 
 def steghide_extract(input_image, passphrase):
@@ -22,8 +24,8 @@ def steghide_extract(input_image, passphrase):
 
 if __name__ == "__main__":
     # Replace these with your file path and passphrase (if applicable)
-    input_image = "/home/sysadmin/Pictures/islands/goofball/bingbong.jpg"
-    output_file = "/home/sysadmin/Pictures/islands/goofball/secretmessage.py"
+    input_image = "/image.jpg"
+    output_file = "/secretmessage.py"
     passphrase = "apple"  # Leave empty if not encrypted
 
     steghide_extract(input_image, passphrase)
