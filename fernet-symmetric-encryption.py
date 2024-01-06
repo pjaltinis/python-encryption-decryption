@@ -5,7 +5,7 @@ key = Fernet.generate_key()
 cipher_suite = Fernet(key)
 
 # Text to be encrypted
-text = "Hint 2: You've found the next note, as the film moves forward you'll need a boat. Hopefully your hacking skills will keep your afloat."
+text = "Your encrypted message goes here"
 
 # Encrypt the text
 encrypted_text = cipher_suite.encrypt(text.encode())
