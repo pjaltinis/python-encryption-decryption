@@ -29,4 +29,4 @@ if __name__ == "__main__":
     passphrase = "apple"  # Leave empty if not encrypted
 
     steghide_extract(input_image, passphrase)
-print("Hint 3: We've made great memories and weve imagined amazing things; but at the end of it all we must say fin. Hes made mosty of cotton candy and some dreams the start of his name rhymes with ring.")
+print("Extracted Message Goes Here")
